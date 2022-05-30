@@ -103,7 +103,7 @@ export default defineComponent({
             getData()
           }
         }}
-        // remote // 不加这个属性，无法得到正确的分页 pageCount无法正常显示，但是fillter可以正常使用，加上reomte后，filter不可用
+        remote // 不加这个属性，无法得到正确的分页 pageCount无法正常显示，但是fillter可以正常使用，加上reomte后，filter不可用
       />
     )
   }
